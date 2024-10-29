@@ -1,7 +1,60 @@
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+main {
+  color: white;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: rgb(84, 84, 84);
+  padding: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
 h1 {
   text-align: center;
-  color: blueviolet;
+  color: yellow;
+  font-size: 36px;
+  opacity: 0.6;
+}
+h2 {
+  margin: 0;
 }
 footer {
   text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: ;
+  border-bottom: 1px dashed white;
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.6;
+  margin: 10px 0;
+}
+.time {
+  font-size: 44px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
 }
