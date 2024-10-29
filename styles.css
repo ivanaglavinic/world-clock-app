@@ -58,3 +58,20 @@ footer {
   font-size: 15px;
   vertical-align: middle;
 }
+.back {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  border: 1px solid white;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.back {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  border: 1px solid white;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transform: scale(1.1);
+}
